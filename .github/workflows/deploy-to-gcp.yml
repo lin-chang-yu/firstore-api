@@ -20,7 +20,7 @@ jobs:
     - name: Set up Cloud SDK
       uses: google-github-actions/setup-gcloud@v0.2.0
       with:
-        project_id:	cxcxc-demo-2024-2-29-yu # gcp project id
+        project_id: cxcxc-demo-2024-2-29-yu # gcp project id
         service_account_key: ${{ secrets.GCP_SA_KEY }}
         export_default_credentials: true
 
