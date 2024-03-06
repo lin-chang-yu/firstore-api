@@ -16,4 +16,3 @@ EXPOSE 5000
 # 在容器啟動時運行 app.py
 # CMD ["python", "app.py"]
 CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 app:app
-
